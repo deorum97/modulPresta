@@ -30,14 +30,14 @@ nbproject/
 
 # Composer dependencies
 vendor/
-composer.lock
+# composer.lock  # Uncomment if this is a library/module
 
 # Node.js dependencies
 node_modules/
 npm-debug.log
 yarn-error.log
-package-lock.json
-yarn.lock
+# package-lock.json  # Uncomment if you want to ignore lock files
+# yarn.lock          # Uncomment if you want to ignore lock files
 
 # Build and compiled files
 *.min.js
