@@ -1,0 +1,80 @@
+# PrestaShop Module .gitignore
+
+# PrestaShop Cache and Config files
+config/settings.inc.php
+config/settings.old.php
+config/xml/*.xml
+cache/*
+!cache/index.php
+!cache/.htaccess
+log/*
+!log/index.php
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.buildpath
+.settings/
+*.code-workspace
+nbproject/
+
+# Composer dependencies
+vendor/
+# composer.lock  # Uncomment if this is a library/module
+
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+# package-lock.json  # Uncomment if you want to ignore lock files
+# yarn.lock          # Uncomment if you want to ignore lock files
+
+# Build and compiled files
+*.min.js
+*.min.css
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backup files
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# PrestaShop specific
+admin-dev/
+install/
+override/
+translations/
+mails/
+pdf/
+img/tmp/
+download/
+upload/
+
+# Module specific
+config_*.xml
+*.zip
